@@ -1,5 +1,5 @@
 {
-	"reseau": "Orange",
+	"reseau": "CSRPC Unltd.",
   
 	"themeColor": "#303f9f",
 	"colors": [
@@ -55,32 +55,32 @@
 		"Transparent": "transparent.png"
 	},
 	"coque_default": {
-		"label": "Sansumg S8",
-		"value": "s8.png"
+		"label": "iPhone X",
+		"value": "iphonex.png"
 	},
 
 
 	"serviceCall": [
 		{
-			"display": "Agent immobilier",
+			"display": "Real Estate Agent",
 			"backgroundColor": "pink",
 			"subMenu": [
 				{
-					"title": "Envoyer un message",
+					"title": "Send a Message",
 					"eventName": "esx_addons_gcphone:call",
 					"type": {
 						"number": "realestateagent"
 					}
 				},
 				{
-					"title": "Rendez-vous location",
+					"title": "Rent a Location",
 					"eventName": "esx_addons_gcphone:call",
 					"type": {
 						"number": "realestateagent"
 					}
 				},
 				{
-					"title": "Rendez-vous achat",
+					"title": "Shop for Homes",
 					"eventName": "esx_addons_gcphone:call",
 					"type": {
 						"number": "realestateagent"
@@ -89,11 +89,11 @@
 			]
 		},
 		{
-			"display": "Ambulance",
+			"display": "EMS",
 			"backgroundColor": "red",
 			"subMenu": [
 				{
-					"title": "Envoyer un message",
+					"title": "Send a Message",
 					"eventName": "esx_addons_gcphone:call",
 					"type": {
 						"number": "ambulance"
@@ -102,39 +102,39 @@
 			]		
 		},
 		{
-			"display": "Concessionnaire",
+			"display": "Car Dealership",
 			"backgroundColor": "green",
 			"subMenu": [
 				{
-					"title": "Envoyer un message",
+					"title": "Send a Message",
 					"eventName": "esx_addons_gcphone:call",
 					"type": {
 						"number": "cardealer"
 					}
 				},
 				{
-					"title": "Rendez-vous vente véhicule",
+					"title": "Create Sales Appointment",
 					"eventName": "esx_addons_gcphone:call",
 					"type": {
 						"number": "cardealer",
-						"message": "Bonjour, serait-il possible de prendre rendez-vous avec vous pour l'achat d'un véhicule ?"
+						"message": "Hello! Is it possible we can arrange a time to meet and discuss some business?"
 					}
 				}
 			]
 		},
 		{
-			"display": "Mécano",
+			"display": "Mechanic",
 			"backgroundColor": "grey",
 			"subMenu": [
 				{
-					"title": "Envoyer un message",
+					"title": "Send a Message",
 					"eventName": "esx_addons_gcphone:call",
 					"type": {
 						"number": "mecano"
 					}
 				},
 				{
-					"title": "Camion en panne",
+					"title": "Truck Broke Down",
 					"eventName": "esx_addons_gcphone:call",
 					"type": {
 						"number": "mecano",
@@ -142,7 +142,7 @@
 					}
 				},
 				{
-					"title": "Voiture en panne",
+					"title": "Car Broke Down",
 					"eventName": "esx_addons_gcphone:call",
 					"type": {
 						"number": "mecano",
@@ -150,7 +150,7 @@
 					}
 				},
 				{
-					"title": "Moto en panne",
+					"title": "Bike Broke Down",
 					"eventName": "esx_addons_gcphone:call",
 					"type": {
 						"number": "mecano",
