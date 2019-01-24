@@ -138,7 +138,7 @@
 					"eventName": "esx_addons_gcphone:call",
 					"type": {
 						"number": "mecano",
-						"message": "Bonjour, mon camion est en panne. Pouvez-vous intervenir ?"
+						"message": "Hey, my truck is broken down. Can you help?"
 					}
 				},
 				{
@@ -146,7 +146,7 @@
 					"eventName": "esx_addons_gcphone:call",
 					"type": {
 						"number": "mecano",
-						"message": "Bonjour, ma voiture est en panne. Pouvez-vous intervenir ?"
+						"message": "Hey, my car is broken down. Can you help?"
 					}
 				},
 				{
@@ -154,7 +154,7 @@
 					"eventName": "esx_addons_gcphone:call",
 					"type": {
 						"number": "mecano",
-						"message": "Bonjour, ma moto est en panne. Pouvez-vous intervenir ?"
+						"message": "Hey, my bike is broken down. Can you help?"
 					}
 				},
 				{
@@ -162,7 +162,7 @@
 					"eventName": "esx_addons_gcphone:call",
 					"type": {
 						"number": "mecano",
-						"message": "Bonjour, un accident a eu lieu. Pouvez-vous intervenir ?"
+						"message": "There was an accident, we need a mechanic or tow!"
 					}
 				}
 			]
@@ -172,14 +172,14 @@
 			"backgroundColor": "blue",
 			"subMenu": [
 				{
-					"title": "Envoyer un message",
+					"title": "Send a Message",
 					"eventName": "esx_addons_gcphone:call",
 					"type": {
 						"number": "police"
 					}
 				},
 				{
-					"title": "Appeler le standard",
+					"title": "Call 911 Emergency Number",
 					"eventName": "gcphone:autoCallNumber",
 					"type": {
 						"number": "911"
@@ -190,15 +190,15 @@
 					"eventName": "esx_addons_gcphone:call",
 					"type": {
 						"number": "police",
-						"message": "Vol en cours, merci de venir au plus vite !"
+						"message": "Robbery in Progress, come quick!"
 					}
 				},
 				{
-					"title": "Signaler une agression",
+					"title": "Report a Violent Crime",
 					"eventName": "esx_addons_gcphone:call",
 					"type": {
 						"number": "police",
-						"message": "Victime d'agression"
+						"message": "Violent Crime, come quick!"
 					}
 				}
 			]
@@ -208,26 +208,26 @@
 			"backgroundColor": "yellow",
 			"subMenu": [
 				{
-					"title": "Envoyer un message",
+					"title": "Send a Message",
 					"eventName": "esx_addons_gcphone:call",
 					"type": {
 						"number": "taxi"
 					}
 				},
 				{
-					"title": "Course rapide",
+					"title": "Express Taxi Trip",
 					"eventName": "esx_addons_gcphone:call",
 					"type": {
 						"number": "taxi",
-						"message": "Bonjour, serait-il possible de venir me prendre pour une course rapide ?"
+						"message": "Hello, I am in need of transportation. I need to get from point A to point B, fast! I'll pay extra!"
 					}
 				},
 				{
-					"title": "Course longue",
+					"title": "Regular Taxi Trip",
 					"eventName": "esx_addons_gcphone:call",
 					"type": {
 						"number": "taxi",
-						"message": "Bonjour, serait-il possible de venir me prendre pour une course qui risque de durer ?"
+						"message": "Hello! Are there currently any available drivers?"
 					}
 				}
 			]
@@ -236,7 +236,7 @@
 
 	"apps": [
 		{
-			"name": "Téléphone",
+			"name": "Phone",
 			"icons": "/html/static/img/icons_app/call.png",
 			"routeName": "appels",
 			"inHomePage": true
@@ -255,7 +255,7 @@
 			"inHomePage": true
 		},
 		{
-			"name": "Paramètres",
+			"name": "Settings",
 			"icons": "/html/static/img/icons_app/settings.png",
 			"routeName": "parametre",
 			"inHomePage": true
@@ -267,7 +267,7 @@
 			"inHomePage": false
 		},
 		{
-			"name": "Bourse",
+			"name": "Browse",
 			"icons": "/html/static/img/icons_app/bourse.png",
 			"routeName": "bourse",
 			"enabled": true
